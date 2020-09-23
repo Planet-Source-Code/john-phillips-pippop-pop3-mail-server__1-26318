@@ -1,0 +1,46 @@
+' PipPop POP3 Email Server copyright ©2001 CSMG, Inc. (John Phillips)
+' Created by John Phillips, MCP
+' Computer Systems Management Group, Inc.
+' This version of pipop was thrown together real quick for
+' upload to Planet-Source-Code
+' As it stands right now pipop was only tested on windows 98
+' I plan to test it on modify as needed on winows NT , 2000
+' This version is not complete and was only tested with one client connecting at
+' a single session - multiple client support will be supported in
+' future releases - also this version does not support attachments
+'
+' This was also tested using Outlook express
+' so let me know if there is a problem connecting
+' with other mail clients
+'
+' any question about this server please email me at
+' vbjack@nyc.rr.com with PIPPOP Code somewhere in the subject Line
+'
+' the reason i started creating such a server is simple
+' I need to provide email support for most of my clients
+' and they want an inexpensive way of doing so
+' so after finding out that the free POP3 servers arent that easy to understand
+' and the easy ones are very expensive for multible clients
+' I decided to see if I could create my own
+' I will be uploading updates to this server for everyone to use
+' provided anyone who uses this code put my name somewhere in the credits
+' with CSMG, Inc.
+
+I only tested this with OUTLOOK Express so I am not sure if it will work with all email clients. let me know if there is or if you fix it to work with other clients - thanks
+
+ok, first you need to setup the server for your computer
+
+then setup a user for the server
+
+over the local area network (or single computer) the email address will most likely be yourname@yourcomputername - there is no .com at the end since you are not on the internet - also when setting up outlook express the POP3 & SMTP server are your computer name or your computers IP address - if you are not on a network it would be 127.0.0.1
+
+try it out - send an email to yourself the connect and retrive it.
+
+please keep in mind I am still working on this so in the next release I will have a lot more function and error trapping. Most of the additional setting are not working yet.
+
+Please email me with your comments suggestions, likes and dislikes I want to hear it all
+
+vbjack@nyc.rr.com
+
+John Phillips, MCP
+CSMG, Inc.
